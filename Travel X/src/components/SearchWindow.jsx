@@ -61,9 +61,10 @@ export const SearchWindow = () => {
             <td rowSpan={2}>
               <b className="personNumberTitle">Ilość osób</b> <br />
               <input className="personNumber" type="number" name="adults" />
-              os. dorosłe <br />
+              os. dorosłe <b className="stylishArrow1">{"<"}</b>
+              <br />
               <input className="personNumber" type="number" name="children" />
-              dzieci
+              dzieci <b className="stylishArrow1">{"<"}</b>
             </td>
           </tr>
           <tr>

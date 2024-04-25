@@ -8,9 +8,10 @@ div .searchWindow {
   width: 880px;
   height: 100px;
   text-align: center;
-  font-size: 48px;
+  font-size: 56px;
   margin: 0px 15px 5px 0px;
   float: left;
+  font-weight: bold;
 }
 
 .searchButton {
@@ -56,8 +57,20 @@ input::-webkit-inner-spin-button {
   width: 30px;
   height: 30px;
   margin: 0px 20px 0px 50px;
+  text-align: center;
+  color: #233cff;
+  font-weight: bold;
 }
 
 .personNumberTitle {
   margin-left: 130px;
+}
+
+.stylishArrow1 {
+  float: right;
+  margin-right: 20px;
+  color: #233cff;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
