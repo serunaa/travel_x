@@ -84,6 +84,7 @@ export const Transport = ({ changeStage, changeTransport }) => {
                 {transport1.hourStart}
               </div>
               <div className="tD_mid">
+                <b className="stylishArrow2">1h 40min</b>
                 <b className="stylishArrow1">{"->"}</b>
               </div>
               <div className="tD_right">
@@ -103,6 +104,7 @@ export const Transport = ({ changeStage, changeTransport }) => {
                 {transport1.hourStart2}
               </div>
               <div className="tD_mid">
+                <b className="stylishArrow2">1h 40min</b>
                 <b className="stylishArrow1">{"->"}</b>
               </div>
               <div className="tD_right">
@@ -142,6 +144,7 @@ export const Transport = ({ changeStage, changeTransport }) => {
                 {transport2.hourStart}
               </div>
               <div className="tD_mid">
+                <b className="stylishArrow2">25h 00min</b>
                 <b className="stylishArrow1">{"->"}</b>
               </div>
               <div className="tD_right">
@@ -161,6 +164,7 @@ export const Transport = ({ changeStage, changeTransport }) => {
                 {transport2.hourStart2}
               </div>
               <div className="tD_mid">
+                <b className="stylishArrow2">26h 00min</b>
                 <b className="stylishArrow1">{"->"}</b>
               </div>
               <div className="tD_right">

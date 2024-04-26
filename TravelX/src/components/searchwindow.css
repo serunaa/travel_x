@@ -63,11 +63,17 @@ input::-webkit-inner-spin-button {
 }
 
 .stylishArrow1 {
-  float: right;
   margin-right: 20px;
   color: #233cff;
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
   font-size: 60px;
+}
+
+.stylishArrow2 {
+  color: #233cff;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
