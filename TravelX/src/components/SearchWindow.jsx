@@ -3,8 +3,8 @@ import { useState } from "react";
 
 export const SearchWindow = ({ onSearch }) => {
   const [destination, setDestination] = useState("Mediolan");
-  const [startDateSelected, setStartDateSelected] = useState("2024-06-01");
-  const [endDateSelected, setEndDateSelected] = useState("2024-06-08");
+  const [startDateSelected, setStartDateSelected] = useState("2024-05-16");
+  const [endDateSelected, setEndDateSelected] = useState("2024-05-20");
   const [adultPerson, setAdultPerson] = useState(0);
   const [childPerson, setChildPerson] = useState(0);
   const [txtDorosli, setTxtDorosli] = useState(" ");
@@ -59,11 +59,6 @@ export const SearchWindow = ({ onSearch }) => {
       adultsTxt: txtDorosli,
       childrenTxt: txtDzieci,
     };
-
-    console.log(formData.adultsTxt);
-    console.log(formData.childrenTxt);
-    console.log(txtDorosli);
-    console.log(txtDzieci);
     onSearch(formData);
   };
 
@@ -74,7 +69,7 @@ export const SearchWindow = ({ onSearch }) => {
       id="startDate"
       value={startDateSelected}
       onChange={handleStartDateChange}
-      min="2024-06-01"
+      min="2024-05-16"
       max="2025-12-24"
     />
   );
@@ -85,7 +80,7 @@ export const SearchWindow = ({ onSearch }) => {
       id="endDate"
       value={endDateSelected}
       onChange={handleEndDateChange}
-      min="2024-06-08"
+      min="2024-05-20"
       max="2025-12-31"
     />
   );
@@ -116,6 +111,7 @@ export const SearchWindow = ({ onSearch }) => {
                   className="personNumber"
                   type="number"
                   name="adults"
+                  min={1}
                   value={adultPerson}
                   onChange={handleAdultPersonChange}
                 />

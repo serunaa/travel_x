@@ -1,0 +1,34 @@
+.hotelName h2,
+.hotelName i {
+  display: flex;
+  justify-content: center;
+}
+
+.hotelName i {
+  margin-top: -1em;
+}
+
+.hotelName {
+  margin-bottom: 1em;
+}
+
+.hotelInfo {
+  clear: both;
+  display: flex;
+}
+
+.hotelDescription {
+  margin-left: 3em;
+  font-size: 20px;
+}
+
+.priceDescription {
+  background-color: #233cff;
+  color: white;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+.hotelImg {
+  border: 1px solid black;
+}

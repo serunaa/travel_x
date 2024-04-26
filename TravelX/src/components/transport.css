@@ -1,0 +1,69 @@
+.transportContent {
+  float: left;
+  clear: both;
+  width: 80em;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="radio"] {
+  border: 0px;
+  width: 2em;
+  height: 2em;
+  margin-right: 2em;
+}
+
+.fullTransport1 {
+  display: flex;
+}
+
+.fullTransport2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blok {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.podroz {
+  border: 1px solid black;
+  padding: 1.2em;
+  height: 5em;
+}
+
+.tD_left,
+.tD_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  float: left;
+}
+.tD_mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  float: left;
+}
+
+.transportLogo {
+  float: left;
+  margin-right: 1em;
+}
+
+.chooseTransport {
+  margin-top: 1em;
+  font-size: 48px;
+  width: 10em;
+  border-radius: 15px;
+  padding: 10px 0px;
+  color: white;
+  background-color: #233cff;
+}

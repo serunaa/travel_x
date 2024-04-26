@@ -12,9 +12,10 @@ export const Banner = ({ displayText, formData }) => {
       {displayText && formData && (
         <h1 className="destinationInfo">
           {formData.destination},{" "}
-          <text className="dateDisplay">{formData.startDate}</text> -{" "}
-          <text className="dateDisplay">{formData.endDate}</text>{" "}
-          {formData.adults} {formData.adultsTxt}, {formData.children}{" "}
+          <b className="dateDisplay">{formData.startDate}</b> -{" "}
+          <b className="dateDisplay">{formData.endDate}</b>{" "}
+          {formData.adults === 0 ? "" : formData.adults} {formData.adultsTxt}
+          {formData.children === 0 ? "" : ", " + formData.children}
           {formData.childrenTxt}
         </h1>
       )}

@@ -1,9 +1,9 @@
 .query {
   border: 2px solid black;
-  width: 880px;
+  width: 75%;
   height: 100px;
   text-align: center;
-  font-size: 56px;
+  font-size: 64px;
   margin: 0px 15px 5px 0px;
   float: left;
   font-weight: bold;
@@ -17,14 +17,14 @@
 
 table {
   border-collapse: collapse;
-  width: 1000px;
-  font-size: 32px;
+  width: 100%;
+  font-size: 40px;
 }
 
 td {
   border: 2px solid black;
   padding: 10px;
-  height: 50px;
+  height: 100px;
 }
 
 .column10p {
@@ -44,14 +44,15 @@ input::-webkit-inner-spin-button {
 }
 
 .calendar {
-  width: 200px;
-  font-size: 24px;
+  width: 300px;
+  font-size: 48px;
 }
+
 .personNumber {
-  font-size: 24px;
-  width: 30px;
-  height: 30px;
-  margin: 0px 20px 0px 50px;
+  font-size: 36px;
+  width: 50px;
+  height: 50px;
+  margin: 10px 20px 10px 50px;
   text-align: center;
   color: #233cff;
   font-weight: bold;
@@ -68,4 +69,5 @@ input::-webkit-inner-spin-button {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-size: 60px;
 }
