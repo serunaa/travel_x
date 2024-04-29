@@ -1,0 +1,37 @@
+.buttons_03 {
+  background-color: #233cff;
+}
+.buttons_04 {
+  background-color: red;
+}
+
+.buttons_03,
+.buttons_04 {
+  color: white;
+  font-size: 2em;
+  border-radius: 1em;
+  margin: 1em;
+  padding: 0.5em 2em;
+  font-weight: bold;
+}
+
+.vehicleSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carInfo {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 60%;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.vehicleDesc,
+.vehicleImg {
+  margin: 0em 3em;
+}
