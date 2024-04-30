@@ -1,0 +1,14 @@
+.attInfo img {
+  float: left;
+}
+
+.attInfo label {
+  margin: 0em 2em;
+}
+
+.attInfo {
+  margin: 2em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

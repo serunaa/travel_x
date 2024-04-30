@@ -6,7 +6,8 @@
   flex-direction: column;
 }
 
-input[type="radio"] {
+input[type="radio"],
+input[type="checkbox"] {
   border: 0px;
   width: 2em;
   height: 2em;

@@ -1,0 +1,19 @@
+.insContent {
+  display: flex;
+  flex-direction: row;
+}
+.insuranceTitle {
+  float: right;
+}
+.insuranceInfo {
+  float: left;
+  margin-right: 2em;
+}
+
+.insOption {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}

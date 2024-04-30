@@ -2,6 +2,12 @@
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 .container {
   width: 100%;
   height: 100%;
@@ -12,5 +18,62 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.summary,
+.payMethod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #233cff;
+  padding: 1em 2em;
+  margin: 2em;
+}
+
+.summary {
+  float: left;
+}
+
+.payMethod {
+  float: right;
+}
+
+.summaryTitle {
+  color: #233cff;
+}
+
+.summaryT {
+  margin-top: 1em;
+}
+
+.payDescription {
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+.pLabel {
+  margin: 1em 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pButtonSubmit {
+  background-color: #233cff;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 0.4em 1.8em;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.thankYou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }

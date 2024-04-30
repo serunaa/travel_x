@@ -86,7 +86,7 @@ export const SearchWindow = ({ onSearch }) => {
   );
 
   return (
-    <div>
+    <div className="searchWindowContainer">
       <form onSubmit={handleSubmit}>
         <input
           className="query"
