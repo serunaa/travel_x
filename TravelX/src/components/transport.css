@@ -60,12 +60,13 @@ input[type="checkbox"] {
   margin-right: 1em;
 }
 
+/*button*/
 .chooseTransport {
-  margin-top: 1em;
+  margin: 1em 0em 2em 0em;
   font-size: 48px;
   width: 10em;
   border-radius: 15px;
-  padding: 10px 0px;
+  padding: 0.2em;
   color: white;
   background-color: #233cff;
 }

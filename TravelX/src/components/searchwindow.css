@@ -7,20 +7,21 @@
   margin: 0px 15px 5px 0px;
   float: left;
   font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .searchButton {
   float: left;
-  background-color: white;
-  border: 1px solid black;
-  padding: 0.5em;
+  border: 0px;
+  padding: 1em 0em;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
   font-size: 40px;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 td {
@@ -48,6 +49,7 @@ input::-webkit-inner-spin-button {
 .calendar {
   width: 300px;
   font-size: 48px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .personNumber {
@@ -58,6 +60,7 @@ input::-webkit-inner-spin-button {
   text-align: center;
   color: #233cff;
   font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .personNumberTitle {
